@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    font-size: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: local('SF Pro Text'), url('../../fonts/SFProText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-size: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: local('SF Pro Display'), url('../../fonts/SFProDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-size: normal;
+    font-weight: 500;
+    font-display: auto;
+    src: local('SF Pro Display'), url('../../fonts/SFProDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-size: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: local('SF Pro Display'), url('../../fonts/SFProDisplay-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-size: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: local('SF Pro Display'), url('../../fonts/SFProDisplay-Bold.woff2') format('woff2');
+}
+
+:root {
+    /* Font family */
+    --body-font: 'SF Pro Text', sans-serif;
+    --display-font: 'SF Pro Display', sans-serif;
+
+    /* Body size */
+    --smaller-body-size: 0.75rem; /* 12px */
+    --big-body-size: 1.25rem; /* 20px */
+    --bigger-body-size: 1.5rem; /* 24px */
+
+    /* Title font size */
+    --small-title-size: 2rem; /* 32px */
+    --normal-title-size: 2.5rem; /* 40px */
+    --big-title-size: 2.5rem; /* 40px */
+    --bigger-title-size: 2.5rem; /* 40px */
+
+    /* Weight */
+    --normal-font: 400;
+    --medium-font: 500;
+    --semi-bold-font: 600;
+    --bold-font: 700;
+
+    /* Line height*/
+    --title-line-height: 1.15;
+}
+
+@media screen and (min-width: 734px) {
+    :root {
+        /* Body font size */
+        --big-body-size: 1.5rem; /* 24px */
+        --bigger-body-size: 1.75rem; /* 28px*/
+
+        /* Title font size */
+        --small-title-size: 2.5rem; /* 40px */
+        --bigger-title-size: 4rem; /* 64px */
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    :root {
+        /* Body font size */
+        --small-body-size: 1rem; /* 16px */ /* CORRECCION AQUI*/
+        --normal-body-size: 1.25rem; /* 20px */
+        --big-body-size: 1.75rem; /* 28px */
+        --bigger-body-size: 2rem; /* 32px */
+
+        /* Title font size */
+        --small-title-size: 3rem; /* 48px */
+        --normal-title-size: 3.5rem; /* 56px */
+        --big-title-size: 4rem; /* 64px */
+        --bigger-title-size: 5rem; /* 80px */
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--display-font);
+    font-weight: var(--semi-bold-font);
+}
+
+.display-font {
+    font-family: var(--display-font);
+}
+
+.body-font {
+    font-family: var(--body-font);
+}
+
+.big-title {
+    font-size: var(--bigger-title-size);
+    font-weight: var(--bold-font);
+    letter-spacing: -0.015em;
+    margin-bottom: 0.75rem;
+}
+
+.big-title .accent {
+    color: var(--text-color-alt);
+}
+
+.big-description {
+    max-width: var(--large-max-width);
+    color: var(--text-color-alt);
+    font-size: var(--big-body-size);
+    font-weight: var(--medium-font);
+    line-height: var(--title-line-height);
+}
+
+@media screen and (min-width: 734px) {
+    .big-description {
+        max-width: var(--large-max-width);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .big-description {
+        max-width: var(--small-max-width);
+    }
+}

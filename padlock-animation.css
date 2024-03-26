@@ -1,0 +1,221 @@
+@keyframes unlock-animation {
+  0% {
+    background-position : 0 0
+  }
+  1.38889% {
+    background-position : -100px 0
+  }
+  2.77778% {
+    background-position : -200px 0
+  }
+  4.16667% {
+    background-position : -300px 0
+  }
+  5.55556% {
+    background-position : -400px 0
+  }
+  6.94444% {
+    background-position : -500px 0
+  }
+  8.33333% {
+    background-position : -600px 0
+  }
+  9.72222% {
+    background-position : -700px 0
+  }
+  11.11111% {
+    background-position : 0 -128px
+  }
+  12.5% {
+    background-position : -100px -128px
+  }
+  13.88889% {
+    background-position : -200px -128px
+  }
+  15.27778% {
+    background-position : -300px -128px
+  }
+  16.66667% {
+    background-position : -400px -128px
+  }
+  18.05556% {
+    background-position : -500px -128px
+  }
+  19.44444% {
+    background-position : -600px -128px
+  }
+  20.83333% {
+    background-position : -700px -128px
+  }
+  22.22222% {
+    background-position : 0 -256px
+  }
+  23.61111% {
+    background-position : -100px -256px
+  }
+  25% {
+    background-position : -200px -256px
+  }
+  26.38889% {
+    background-position : -300px -256px
+  }
+  27.77778% {
+    background-position : -400px -256px
+  }
+  29.16667% {
+    background-position : -500px -256px
+  }
+  30.55556% {
+    background-position : -600px -256px
+  }
+  31.94444% {
+    background-position : -700px -256px
+  }
+  33.33333% {
+    background-position : 0 -384px
+  }
+  34.72222% {
+    background-position : -100px -384px
+  }
+  36.11111% {
+    background-position : -200px -384px
+  }
+  37.5% {
+    background-position : -300px -384px
+  }
+  38.88889% {
+    background-position : -400px -384px
+  }
+  40.27778% {
+    background-position : -500px -384px
+  }
+  41.66667% {
+    background-position : -600px -384px
+  }
+  43.05556% {
+    background-position : -700px -384px
+  }
+  44.44444% {
+    background-position : 0 -512px
+  }
+  45.83333% {
+    background-position : -100px -512px
+  }
+  47.22222% {
+    background-position : -200px -512px
+  }
+  48.61111% {
+    background-position : -300px -512px
+  }
+  50% {
+    background-position : -400px -512px
+  }
+  51.38889% {
+    background-position : -500px -512px
+  }
+  52.77778% {
+    background-position : -600px -512px
+  }
+  54.16667% {
+    background-position : -700px -512px
+  }
+  55.55556% {
+    background-position : 0 -640px
+  }
+  56.94444% {
+    background-position : -100px -640px
+  }
+  58.33333% {
+    background-position : -200px -640px
+  }
+  59.72222% {
+    background-position : -300px -640px
+  }
+  61.11111% {
+    background-position : -400px -640px
+  }
+  62.5% {
+    background-position : -500px -640px
+  }
+  63.88889% {
+    background-position : -600px -640px
+  }
+  65.27778% {
+    background-position : -700px -640px
+  }
+  66.66667% {
+    background-position : 0 -768px
+  }
+  68.05556% {
+    background-position : -100px -768px
+  }
+  69.44444% {
+    background-position : -200px -768px
+  }
+  70.83333% {
+    background-position : -300px -768px
+  }
+  72.22222% {
+    background-position : -400px -768px
+  }
+  73.61111% {
+    background-position : -500px -768px
+  }
+  75% {
+    background-position : -600px -768px
+  }
+  76.38889% {
+    background-position : -700px -768px
+  }
+  77.77778% {
+    background-position : 0 -896px
+  }
+  79.16667% {
+    background-position : -100px -896px
+  }
+  80.55556% {
+    background-position : -200px -896px
+  }
+  81.94444% {
+    background-position : -300px -896px
+  }
+  83.33333% {
+    background-position : -400px -896px
+  }
+  84.72222% {
+    background-position : -500px -896px
+  }
+  86.11111% {
+    background-position : -600px -896px
+  }
+  87.5% {
+    background-position : -700px -896px
+  }
+  88.88889% {
+    background-position : 0 -1024px
+  }
+  90.27778% {
+    background-position : -100px -1024px
+  }
+  91.66667% {
+    background-position : -200px -1024px
+  }
+  93.05556% {
+    background-position : -300px -1024px
+  }
+  94.44444% {
+    background-position : -400px -1024px
+  }
+  95.83333% {
+    background-position : -500px -1024px
+  }
+  97.22222% {
+    background-position : -600px -1024px
+  }
+  98.61111% {
+    background-position : -700px -1024px
+  }
+  100% {
+    background-position : -700px -1024px
+  }
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon Mac Mini</title>
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./icons/style.css">
+    <link rel="stylesheet" href="./css/components/base.css">
+    <link rel="stylesheet" href="./css/components/typography.css">
+    <link rel="stylesheet" href="./css/components/layout.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+
+    <link rel="stylesheet" href="./css/components/main-header.css">
+    <link rel="stylesheet" href="./css/components/main-hero-banner.css">
+    <link rel="stylesheet" href="./css/components/chip-section.css">
+    <link rel="stylesheet" href="./css/components/feature-panel.css">
+    <link rel="stylesheet" href="./css/components/padlock-animation.css">
+    <link rel="stylesheet" href="./css/components/tab-section.css">
+    <link rel="stylesheet" href="./css/components/connectivity-section.css">
+    <link rel="stylesheet" href="./css/components/feature-grid.css">
+
+    <script src="./js/index.js" type="module"></script>
+</head>
+
+<body>
+    <header id="main-header" class="main-header place-center">
+        <nav class="nav container">
+            <a href="#description" class="title">Mac mini</a>
+            <div class="right place-center">
+                <ul id="main-menu" class="main-menu">
+                    <li class="item">
+                        <a href="#description" class="link">Descripción</a>
+                    </li>
+                    <li class="item">
+                        <a href="#why-mac" class="link">Porqué la Mac?</a>
+                    </li>
+                    <li class="item">
+                        <a href="#specifications" class="link">Especificaciones</a>
+                    </li>
+                </ul>
+                <button id="menu-button" class="menu-button"></button>
+                <a href="#" class="button tiny">Comprar</a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-overlay" id="main-overlay"></div>
+
+    <main class="main">
+        <!-- Banner principal del sitio -->
+        <section id="description" class="main-hero-banner">
+            <div class="hero-image center-x">
+                <img class="picture center-x" src="./media/img/hero-image.jpg" alt="Portada de la Mac M1">
+                <img class="picture center-x dark" src="./media/img/hero-image-dark.jpg" alt="Portada de la Mac M1">
+            </div>
+            <div class="container">
+                <h1 class="product-title">Mac mini</h1>
+                <h2 class="hero-title">Cada vez más<br />grande por dentro.</h2>
+                <p class="description">
+                    El nuevo chip M1 diseñado por Apple lleva nuestra computadora de escritorio más versátil a otra
+                    dimensión. Ahora
+                    viene con un CPU hasta 3 veces más rápido, gráficos hasta 6 veces más veloces y nuestro Neural
+                    Engine más
+                    avanzado, que permite un aprendizaje automático hasta 15 veces más rápido. Podrás trabajar, jugar y
+                    crear con
+                    una velocidad y potencia que jamás habías imaginado. La Mac mini es poder para conquistarlo todo.
+                </p>
+                <div class="subtitle place-center">
+                    <img class="chip" src="./media/img/chip-m1.jpg" alt="Chip M1">
+                    <p>Con los superpoderes del chip M1 de Apple</p>
+                </div>
+                <div class="hero-cta-container place-center">
+                    <a class="hero-cta" href="#">Desde $699</a>
+                    <a class="hero-cta arrow" href="#">Ver el evento</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Presentación del chip m1 -->
+        <section id="why-mac" class="chip-section">
+            <div class="container">
+                <img class="logo" src="./media/img/m1-logo.png" alt="Logo chip M1">
+                <h2 class="big-title">Un chip pequeño. <br /> Un avance enorme</h2>
+                <p class="big-description">
+                    Ya llegó el primer chip diseñado específicamente para la Mac. El sistema en chip (SoC) M1 de Apple
+                    tiene 16,000 millones de transistores e integra CPU, GPU, Neural Engine, E/S y mucho más en un
+                    diminuto chip. Por eso, te brinda un rendimiento increíble, tecnologías exclusivas y una eficiencia
+                    energética líder en la industria.1 El chip M1 es más que un paso adelante: es la entrada al futuro
+                    de la Mac.
+                </p>
+                <div class="video-container">
+                    <video class="video center-x" autoplay muted>
+                        <source src="./media/video/chip-m1.mp4" />
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección del grid m1 -->
+        <div id="specifications" class="grid-section">
+
+            <section class="feature-panel cpu">
+                <div class="content">
+                    <h2 class="title">CPU</h2>
+                    <h3 class="subtitle">
+                        <span class="accent">CPU de 8 núcleos</span> Ultrapoderoso. Ultracompacto.
+                    </h3>
+                    <p class="description">
+                        El chip M1 le da mucha más potencia y velocidad a la Mac mini. El CPU de 8 núcleos tiene una
+                        velocidad de
+                        procesamiento hasta 3 veces mayor que la de la generación anterior2, sin modificar su icónico
+                        diseño cuadrado
+                        de 19.7 cm.
+                    </p>
+                    <button class="button ghost">Cómo el chip M1 <br class="break-line" /> redefine la
+                        velocidad</button>
+                </div>
+                <img class="image" src="./media/img/cpu.png" alt="Imagen CPU">
+            </section>
+
+            <section class="feature-panel gpu">
+                <div class="content">
+                    <h2 class="title">GPU</h2>
+                    <div class="grid">
+                        <div>
+                            <h3 class="subtitle">
+                                Un chip irreal. Gráficos de fantasía.
+                            </h3>
+                            <p class="description">
+                                El GPU de 8 núcleos del chip M1 es el procesador gráfico más avanzado que hemos creado.
+                                Punto. Es por eso que la Mac mini tiene los gráficos integrados más rápidos del mundo en
+                                una computadora personal, con un rendimiento gráfico 6 veces mayor que la generación
+                                anterior. Es un monumento a la potencia en un diseño increíblemente compacto.
+                            </p>
+                        </div>
+                        <ul class="characteristic-container">
+                            <li class="characteristic">
+                                GPU de
+                                <span class="number">8</span>
+                                <span class="caption">núcleos</span>
+                            </li>
+                            <li class="characteristic">
+                                Gráficos hasta
+                                <span class="number">6<span class="x">x</span></span>
+                                <span class="caption">más rápidos</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="button ghost">
+                        Cómo el chip M1 acelera <br class="break-line" />
+                        los gráficos
+                    </button>
+                </div>
+                <div class="background-container">
+                    <video class="video background" autoplay muted loop>
+                        <source src="./media/video/gpu-demostration.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </section>
+
+            <section class="feature-panel learning">
+                <div class="content">
+                    <h2 class="title">Aprendizaje automático</h2>
+                    <div class="grid">
+                        <div>
+                            <p class="description">
+                                Neural Engine de 16 núcleos. Es la mente maestra.
+                                <span class="accent">El aprendizaje automático permite la automatización y aceleración
+                                    de funciones como análisis de video, reconocimiento de voz, procesamiento de
+                                    imágenes y mucho más. Además, gracias al chip M1 con Neural Engine de 16 núcleos y
+                                    toda una gama de tecnologías avanzadas, el aprendizaje automático en la Mac mini
+                                    llega a un nivel superior.
+                                </span>
+                            </p>
+                        </div>
+                        <ul class="characteristic-container">
+                            <li class="characteristic">
+                                Neural Engine de
+                                <span class="number">16</span>
+                                <span class="caption">núcleos</span>
+                            </li>
+                            <li class="characteristic">
+                                Aprendizaje <br /> automático hasta
+                                <span class="number">15<span class="x">x</span></span>
+                                <span class="caption">más rápidos</span>
+                            </li>
+                        </ul>
+                        <div>
+                            <button class="button ghost">
+                                Cómo el chip M1 lleva el <br class="break-line" />
+                                aprendizaje automático a otro nivel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <img src="./media/img/learning.png" alt="Aprendizaje contínuo" class="image">
+            </section>
+
+            <section class="feature-panel big-sur">
+                <div class="content">
+                    <h2 class="title">macOS Big Sur</h2>
+                    <h3 class="subtitle">
+                        El poder de <br /> Big Sur en <br /> chip M1.
+                    </h3>
+                    <p class="description">
+                        macOS Big Sur fue creado para aprovechar todo el potencial del chip M1. El resultado es una Mac
+                        con un mejor rendimiento y muchos beneficios más. Trae grandes actualizaciones para las apps, un
+                        nuevo y espectacular diseño y funcionalidades de privacidad y seguridad líderes en la industria.
+                        Es nuestro software más avanzado en nuestro hardware más poderoso hasta ahora.
+                    </p>
+                </div>
+                <img src="./media/img/big-sur.png" alt="bigsur" class="image">
+                <picture class="background-container">
+                    <source media="(min-width: 1024px)" srcset="./media/img/backgrounds/macos-bg-desktop.jpg">
+                    <source media="(min-width: 734px)" srcset="./media/img/backgrounds/macos-bg-tablet.jpg">
+                    <img class="background" src="./media/img/backgrounds/macos-bg-mobile.jpg" alt="Fondo macOS">
+                </picture>
+            </section>
+
+            <div class="sub-grid">
+                <section class="feature-panel speed" id="feature-panel-speed">
+                    <div class="content">
+                        <h2 class="title">Velocidad y capacidad de respuesta</h2>
+                        <p class="description">
+                            El chip M1 y macOS Big Sur trabajan en equipo para acelerar por completo el funcionamiento
+                            del sistema. La Mac mini se activa casi al instante. Las cosas que haces todos los días,
+                            como ver fotos o navegar en Safari, son más rápidas. Y las apps más exigentes pueden usar
+                            toda la potencia que necesitan.
+                        </p>
+                        <h3 class="subtitle">
+                            <span class="first-line">No tarda <br />nada en</span><br />
+                            <span class="second-line">demostrar <br />su poder.</span>
+                        </h3>
+                    </div>
+
+                    <picture class="background-container">
+                        <source media="(min-width: 1024px)" srcset="./media/img/backgrounds/speed-desktop.jpg">
+                        <source media="(min-width: 734px)" srcset="./media/img/backgrounds/speed-tablet.jpg">
+                        <img class="background" src="./media/img/backgrounds/speed-mobile.jpg" alt="Fondo velocidad">
+                    </picture>
+                </section>
+
+                <section class="feature-panel apps">
+                    <div class="content">
+                        <h2 class="title">La colección de apps más grande hasta ahora</h2>
+                        <p class="description">
+                            Aprovecha las poderosas apps diseñadas para funcionar con el chip M1. Sigue disfrutando tus
+                            apps de siempre gracias a Rosetta 2. Además, por primera vez puedes usar tus apps favoritas
+                            del iPhone y del iPad en macOS Monterey. En resumen, vas a tener la colección de apps más
+                            grande hasta ahora en tu Mac.
+                        </p>
+                        <img src="./media/img/apps.png" alt="Galería de aplicaciones" class="apps-image">
+                    </div>
+
+                    <picture class="background-container">
+                        <source media="(min-width: 1024px)" srcset="./media/img/backgrounds/apps-desktop.jpg">
+                        <source media="(min-width: 734px)" srcset="./media/img/backgrounds/apps-tablet.jpg">
+                        <img class="background" src="./media/img/backgrounds/apps-mobile.jpg" alt="Fondo apps">
+                    </picture>
+                </section>
+            </div>
+
+            <div class="sub-grid three-columns">
+                <section class="feature-panel compact">
+                    <div class="content">
+                        <h2 class="title">Diseño compacto</h2>
+                        <p class="description">
+                            Aprovecha las poderosas apps diseñadas para funcionar con el chip M1. Sigue disfrutando tus
+                            apps de siempre gracias a Rosetta 2. Además, por primera vez puedes usar tus apps favoritas
+                            del iPhone y del iPad en macOS Monterey. En resumen, vas a tener la colección de apps más
+                            grande hasta ahora en tu Mac.
+                        </p>
+                    </div>
+                    <div class="video-container">
+                        <video class="video" autoplay muted>
+                            <source src="./media/video/pc-to-mac.mp4" type="video/mp4" />
+                        </video>
+                        <h3 class="subtitle">
+                            Una gran computadora no tiene por qué ser grande.
+                        </h3>
+                    </div>
+                </section>
+
+                <section class="feature-panel memory">
+                    <div class="content">
+                        <h2 class="title">Memoria unificada</h2>
+                        <div class="wrapper">
+                            <img src="./media/img/memory-icon.png" alt="Ícono de memoria" class="icon">
+                            <p class="description">
+                                El dominio de la RAM se expande. <span class="accent">El chip M1 trae hasta 16 GB de
+                                    memoria unificada ultrarrápida. Con su memoria de baja latencia y gran ancho de
+                                    banda, las apps pueden compartir datos eficientemente entre el CPU, el GPU y el
+                                    Neural Engine para que todo sea más rápido y fluido.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <picture class="background-container">
+                        <img class="background" src="./media/img/backgrounds/memory.jpg" alt="Fondo apps">
+                    </picture>
+                </section>
+            </div>
+
+            <div class="sub-grid">
+                <section class="feature-panel ssd">
+                    <div class="content">
+                        <h2 class="title">Almacenamiento SSD</h2>
+                        <p class="description">
+                            La Mac mini viene con almacenamiento flash con un SSD de hasta 2 TB20 para que puedas
+                            guardar toda tu biblioteca de fotos y videos, archivos y apps. Y con velocidades de hasta
+                            3.4 GB/s21, las apps y los archivos se abren y se cargan al instante.
+                        </p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./media/img/ssd.png" alt="Almacenamiento" class="image">
+                    </div>
+                </section>
+
+                <section class="feature-panel security" id="feature-panel-security">
+                    <div class="content">
+                        <h2 class="title">Seguridad</h2>
+                    </div>
+                    <div>
+                        <div class="padlock" id="padlock"></div>
+                        <h3 class="message" id="message">
+                            Todos tus <span data-text="datos" id="masked-data-text">•••••</span><br />
+                            están bajo <span data-text="llave." id="masked-data-key">••••••</span>
+                        </h3>
+                    </div>
+                    <button class="button ghost">Cómo el chip M1 protege tus datos</button>
+                </section>
+            </div>
+
+        </div>
+
+        <section class="versatility-section">
+            <div class="container">
+                <h2 class="big-title">
+                    <span class="accent">Versatilidad</span> <br />
+                    una buena para todo.
+                </h2>
+                <p class="big-description">
+                    La Mac mini es perfecta para un gran variedad de usos gracias a su tamaño compacto, increíble
+                    rendimiento y amplia selección de puertos. Y con toda la potencia del chip M1, en un diseño cuadrado
+                    de tan sólo 19.7 centímetros, la Mac mini hace un gran trabajo dondequiera.
+                </p>
+            </div>
+            <div class="tabs-section" id="tabs-section">
+                <div class="image-container center-x">
+                    <img src="./media/img/home-office.jpg" alt="Mac mini en home office" class="image-panel is-active">
+                    <img src="./media/img/game.jpg" alt="Mac mini en video juegos" class="image-panel">
+                    <img src="./media/img/music.jpg" alt="Mac mini en creación de música" class="image-panel">
+                    <img src="./media/img/art.jpg" alt="Mac mini en artes digitales" class="image-panel">
+                </div>
+                <div class="tabs-container" id="tabs-container">
+                    <button class="tab is-active">Home office</button>
+                    <button class="tab">Juegos</button>
+                    <button class="tab">Creación musical</button>
+                    <button class="tab">Artes y carteles digitales</button>
+                </div>
+
+                <div class="panels-container container">
+                    <p class="panel is-active">
+                        La Mac mini convierte tu escritorio en una verdadera estación de trabajo. Sólo tienes que
+                        agregar un teclado, un mouse o trackpad y hasta dos monitores.
+                    </p>
+                    <p class="panel">
+                        El GPU del chip M1 tiene el rendimiento de un procesador dedicado y te permite disfrutar juegos
+                        de gráficos avanzados con mayor velocidad de cuadros y mayor fidelidad.
+                    </p>
+                    <p class="panel">
+                        El CPU de 8 núcleos, la superrápida memoria unificada y los aceleradores de aprendizaje
+                        automático del chip M1 te permiten ejecutar más pistas, plug-ins y filtros en Logic Pro de los
+                        que nunca había permitido la Mac mini.
+                    </p>
+                    <p class="panel">
+                        Desde instalaciones de arte hasta carteles digitales gigantes, la Mac mini puede trabajar con
+                        las pantallas digitales más grandes y brillantes gracias a su increíble rendimiento, sus
+                        versátiles puertos de E/S y su incomparable eficiencia energética. Todo en un diseño
+                        ultracompacto.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="connectivity-section">
+            <div class="container">
+                <h2 class="big-title">
+                    <span class="accent">Conexiones<br />y expansión</span><br />
+                    Conquista por<br />más frentes.
+                </h2>
+                <p class="big-description">
+                    Con dos puertos Thunderbolt/USB 4 increíblemente rápidos, dos puertos USB-A, HDMI 2.0, Wi-Fi 6 y
+                    Gigabit Ethernet, la Mac mini está lista para todo.
+                </p>
+            </div>
+            <picture class="image-container center-x">
+                <source media="(min-width: 734px)" srcset="./media/img/connectivity.jpg">
+                <img src="./media/img/connectivity-mobile.jpg" alt="Conexiones de la Mac mini" class="image">
+            </picture>
+        </section>
+
+        <div class="grid-section">
+            <div class="sub-grid three-columns">
+                <section class="feature-panel thunderbolt">
+                    <div class="content">
+                        <h2 class="title">Thunderbolt / USB 4</h2>
+                        <p class="description">
+                            Transfiere datos a una velocidad de hasta 40 Gb/s.22 Carga dispositivos externos. Y conecta
+                            un monitor externo hasta 6K y un segundo monitor con HDMI 2.0 hasta 4K.
+                        </p>
+                    </div>
+                    <div class="background-container">
+                        <img src="./media/img/backgrounds/thunderbolt.jpg" alt="Fondo thunderbolt" class="background">
+                    </div>
+                </section>
+
+                <section class="feature-panel wifi">
+                    <div class="content">
+                        <h2 class="title">Wi-Fi 6</h2>
+                        <p class="description">
+                            La tecnología Wi-Fi 6 llega por primera vez a la Mac mini, con un rendimiento superior y
+                            velocidades de hasta 1.2 Gb/s para transferir archivos y hacer respaldos con Time Machine a
+                            una velocidad supersónica.
+                        </p>
+                        <div class="wrapper">
+                            <img src="./media/img/wifi.png" alt="Wifi" class="icon">
+                            <p class="big-title">Wi-Fi 6</p>
+                            <p class="sub-caption">de hasta 1.2 Gb/s22</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="last-grid-section">
+            <div class="grid-section">
+                <section class="feature-panel ar minimal-content">
+                    <div class="content">
+                        <img src="./media/img/cube.png" alt="Ícono de cubo" class="icon">
+                        <h3 class="subtitle">
+                            Mira con AR <br />
+                            cómo se ve la <br />
+                            Mac mini en tu <br />
+                            espacio de trabajo.
+                        </h3>
+                        <p>
+                            Abre esta página con Safari <br />
+                            en tu iPhone o iPad.
+                        </p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./media/img/ar-cellphone.jpg" alt="Celular AR">
+                    </div>
+                </section>
+
+                <section class="feature-panel mac-os minimal-content place-center">
+                    <img src="./media/img/macOs-logo.png" alt="Logo MacOS" class="icon">
+                    <h3 class="subtitle">
+                        Conoce lo nuevo de <br />
+                        macOS Big Sur.
+                    </h3>
+                    <a href="#" class="link">Más información</a>
+                    <div class="background-container">
+                        <img src="./media/img/backgrounds/macOs-bg.jpg" alt="Fondo panel MacOS" class="background">
+                    </div>
+                </section>
+
+                <div class="sub-grid">
+                    <section class="feature-panel accessories minimal-content">
+                        <div class="content">
+                            <h2 class="title">Accesorios</h2>
+                            <h3 class="subtitle">
+                                Descrubre <br />
+                                accesorios para <br />
+                                la Mac. <br />
+                            </h3>
+                            <a href="#" class="button">Comprar</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="./media/img/accessories.jpg" alt="Accesorios" class="image-accessories">
+                        </div>
+                    </section>
+
+                    <section class="feature-panel accessories minimal-content">
+                        <div class="content">
+                            <h2 class="title">Continuidad</h2>
+                            <h3 class="subtitle">
+                                Todos tus dispositivos,<br />
+                                una misma experiencia.
+                            </h3>
+                            <p class="text">
+                                Como Apple fabrica el iPhone, el iPad, el Apple Watch y la Mac, todos funcionan juntos a
+                                la perfección.
+                            </p>
+                            <a href="#" class="link arrow">Más información</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="./media/img/products.jpg" alt="Productos" class="image-accessories">
+                        </div>
+                    </section>
+                </div>
+                <section class="feature-panel trade-in minimal-content">
+                    <div class="content">
+                        <h2 class="title">Apple Trade In</h2>
+                        <h3 class="subtitle">
+                            Obtén hasta $6,480 de crédito para comprar una Mac mini nueva. **
+                        </h3>
+                        <p class="text">
+                            Trae una computadora que cumpla con los requisitos y obtén crédito para comprar una Mac
+                            nueva. Es bueno ara ti y para el planeta.
+                        </p>
+                        <a href="#" class="link arrow">Más información</a>
+                    </div>
+                    <img src="./media/img/mac-router.jpg" alt="Router Mac" class="mac-image">
+                </section>
+
+                <div class="sub-grid">
+                    <section class="feature-panel minimal-content hero-panel place-center">
+                        <div class="content">
+                            <h3 class="subtitle">Mac para la educación superior</h3>
+                            <p class="text">
+                                Lista para acompañarte en todos los desafíos de la universidad.
+                            </p>
+                            <a href="#" class="link arrow">Comprar con precios especiales de Apple para la educación</a>
+                            <a href="#" class="link arrow">Más información sobre la Mac en la educación superior</a>
+                        </div>
+                        <div class="background-container">
+                            <img src="./media/img/backgrounds/education.jpg" alt="Educación" class="background">
+                        </div>
+                    </section>
+
+                    <section class="feature-panel minimal-content hero-panel place-center">
+                        <div class="content">
+                            <h3 class="subtitle">Mac para la Empresa</h3>
+                            <p class="text">
+                                Con todo el poder para llevar a tu empresa al siguiente nivel.
+                            </p>
+                            <a href="#" class="link arrow">Comprar para tu empresa</a>
+                            <a href="#" class="link arrow">Más información sobre la Mac en la empresa</a>
+                        </div>
+                        <div class="background-container">
+                            <img src="./media/img/backgrounds/enterprise.jpg" alt="Empresa" class="background">
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+
+            <section class="feature-grid">
+                <div class="container">
+                    <article class="feature-item">
+                        <span class="icon icon-coin"></span>
+                        <h3 class="title">Financiamiento</h3>
+                        <p class="description">
+                            Hasta 18 pagos mensuales fijos con tarjetas de crédito participantes
+                        </p>
+                        <a href="#" class="link arrow">Más información</a>
+                    </article>
+
+                    <article class="feature-item">
+                        <span class="icon icon-box"></span>
+                        <h3 class="title">
+                            Envío sin costo en <br />
+                            todos los pedidos
+                        </h3>
+                        <p class="description">
+                            Y devoluciones sin costos
+                        </p>
+                        <a href="#" class="link arrow">Más información</a>
+                    </article>
+
+                    <article class="feature-item">
+                        <span class="icon icon-message"></span>
+                        <h3 class="title">Obtén ayuda al comprar</h3>
+                        <p class="description">
+                            Habla con un Especialista <br />
+                            por teléfono o por chat. <br />
+                            Llama al +51-931-788-803.
+                        </p>
+                        <a href="#" class="link arrow">Más información</a>
+                    </article>
+
+                    <article class="feature-item">
+                        <span class="icon icon-users"></span>
+                        <h3 class="title">Sesión personal online</h3>
+                        <p class="description">
+                            Aprovecha al máximo tu nueva Mac <br />
+                            con la ayuda de un Especialista, que te <br />
+                            brindará desde información básica <br />
+                            hasta consejos útiles.
+                        </p>
+                        <a href="#" class="link arrow">Más información</a>
+                    </article>
+
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

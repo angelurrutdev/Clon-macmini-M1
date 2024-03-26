@@ -1,0 +1,101 @@
+/*
+@media screen and (min-width: 360px) {
+    
+}
+@media screen and (min-width: 734px) {
+    
+}
+@media screen and (min-width: 1024px) {
+    
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* color */
+    --text-color: #fff;
+    --text-color-alt: #a1a1a6;
+    --accent-color: #0071e3;
+    --accent-color-alt: #2997ff;
+    --body-bg: #000;
+    --bg-color: #151516;
+    --bg-color-alt: #1d1d1f;
+    
+    /* Stacking context */
+    --z-negative: -1;
+    --z-normal: 1;
+    --z-sticky: 50;
+
+    /* Utils */
+    --header-height: 3rem;
+    --time: 150ms;
+    --large-max-width: 91%;
+    --medium-max-width: 83%;
+    --small-max-width: 75%;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-height) + 3rem);
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--body-font);
+    background-color: var(--body-bg);
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.arrow {
+    display: inline-block;
+}
+
+a.arrow::after {
+    content: '\e900';
+    display: inline;
+    padding-left: 0.25rem;
+    font-size: 0.65rem;
+    font-family: 'icomoon' !important;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+}
+
+.black-background {
+    background-color: var(--bg-color);
+}
+
+.black-background-alt {
+    background-color: var(--bg-color-alt);
+}
+
+.image-container {
+    position: relative;
+}
